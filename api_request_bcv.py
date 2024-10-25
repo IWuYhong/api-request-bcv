@@ -5,7 +5,7 @@ def get_exchange_rate(currency):
     """Obtiene el tipo de cambio de una moneda dada.
 
     Args:
-        currency (str): El código de la moneda (e.g., 'EUR', 'CNY').
+        currency (str): El código de la moneda (e.g., 'euro', 'yuan', 'lira', 'rublo', 'dolar').
 
     Returns:
         float: El valor de cambio de la moneda, o None si ocurre un error.
